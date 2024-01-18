@@ -1,0 +1,26 @@
+﻿
+@namespace D8S.R0.Layouts
+
+
+<Layout_Html>
+    <Head>
+        @* Set defaults. *@
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <base href="/" />
+
+        @this.Head
+    </Head>
+    <Body>
+        @this.Body
+    </Body>
+</Layout_Html>
+
+
+@code {
+    [Parameter]
+    public RenderFragment? Head { get; set; }
+
+    [Parameter]
+    public RenderFragment? Body { get; set; }
+}

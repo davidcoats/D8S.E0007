@@ -1,0 +1,22 @@
+﻿
+@namespace D8S.R0.Layouts
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        @this.Head
+    </head>
+    <body>
+        @this.Body
+    </body>
+</html>
+
+
+@code {
+    [Parameter]
+    public RenderFragment? Head { get; set; }
+
+    [Parameter]
+    public RenderFragment? Body { get; set; }
+}

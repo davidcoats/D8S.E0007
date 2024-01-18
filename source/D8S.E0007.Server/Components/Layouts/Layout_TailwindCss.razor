@@ -1,0 +1,24 @@
+﻿
+@namespace D8S.R0.Layouts
+
+
+<Layout_Blazor>
+    <Head>
+        @*Use Tailwind CSS*@
+        <link rel="stylesheet" type="text/css" href="/css-out/tailwind.css" />
+
+        @this.Head
+    </Head>
+    <Body>
+        @this.Body
+    </Body>
+</Layout_Blazor>
+
+
+@code {
+    [Parameter]
+    public RenderFragment? Head { get; set; }
+
+    [Parameter]
+    public RenderFragment? Body { get; set; }
+}

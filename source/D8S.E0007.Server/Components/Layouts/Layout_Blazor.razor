@@ -1,0 +1,27 @@
+﻿
+@namespace D8S.R0.Layouts
+
+
+<Layout_Default>
+    <Head>
+        @this.Head
+
+        @* Put the head outlet *after* the head content. *@
+        <HeadOutlet />
+    </Head>
+    <Body>
+        @this.Body
+
+        @* Use Blazor. Put it last.*@
+        <script src="_framework/blazor.web.js"></script>
+    </Body>
+</Layout_Default>
+
+
+@code {
+    [Parameter]
+    public RenderFragment? Head { get; set; }
+
+    [Parameter]
+    public RenderFragment? Body { get; set; }
+}

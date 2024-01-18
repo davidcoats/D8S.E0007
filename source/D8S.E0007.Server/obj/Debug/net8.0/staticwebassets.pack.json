@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Code\\DEV\\Git\\GitHub\\davidcoats\\D8S.E0007\\source\\D8S.E0007.Server\\wwwroot\\css-out\\tailwind.css",
+      "PackagePath": "staticwebassets\\css-out\\tailwind.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.D8S.E0007.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.D8S.E0007.Server.props",
+      "PackagePath": "build\\D8S.E0007.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.D8S.E0007.Server.props",
+      "PackagePath": "buildMultiTargeting\\D8S.E0007.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.D8S.E0007.Server.props",
+      "PackagePath": "buildTransitive\\D8S.E0007.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

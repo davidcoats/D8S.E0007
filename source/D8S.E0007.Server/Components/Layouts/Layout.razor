@@ -1,0 +1,24 @@
+﻿
+@namespace D8S.R0.Layouts
+
+
+<Layout_TailwindCss>
+    <Head>
+        @this.Head
+
+        @* This includes CSS to hide the Blazor error UI. *@
+        <link rel="stylesheet" href="D8S.E0007.Server.styles.css" />
+    </Head>
+    <Body>
+        @this.Body
+    </Body>
+</Layout_TailwindCss>
+
+
+@code {
+    [Parameter]
+    public RenderFragment? Head { get; set; }
+
+    [Parameter]
+    public RenderFragment? Body { get; set; }
+}
